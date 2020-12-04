@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #171717;
+    text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.had {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.logo {
+    position: absolute;
+    width: 57px;
+    height: 48px;
+    left: 60px;
+    top: 15px;
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.nav-text,a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 30px;
+
+    font-size: 20px;
+    line-height: normal;
+}
+
+.line-1 {
+    position: absolute;
+    width: 1800px;
+    height: 1px;
+    left: 60px;
+    top: 9.5%;
+
+    background: #393e4b;
+}
+
+
+.sc-1 {
+    position: relative;
+    color: aliceblue;
+    width: 100%;
+    height: 100px;
+
+    margin-top: 100px;
+
+}
+
+.line-2 {
+    position: absolute;
+    width: 1800px;
+    height: 1px;
+    left: 60px;
+    top: 16%;
+
+    background: #393e4b;
+}
+
+.burger-menu {
+    position: absolute;
+    padding-left: 4%;
+    padding-top: 8px;
+}
+
+.menu-hub{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    padding-top: 8px;
+    padding-left: 160px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+.y-line-1 {
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    left: 585px;
+    top: 3.5px;
+
+    background: #2C313D;
+}
+
+.search-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 600px;
+    top: 12.5px;
+}
+
+.y-line-2 {
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    left: 1585px;
+    top: 3.5px;
+
+    background: #2C313D;
+}
+
+.text-cart {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 1030px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+.logo-account {
+    padding-top: 10px;
+}
+
+/* Превью игр */
+.box-game-1 {
+    position: absolute;
+    width: 872px;
+    height: 480px;
+    left: 64px;
+    top: 200px;
+
+    background: url('https://cs8.pikabu.ru/post_img/big/2018/02/06/12/151794761518266918.jpg');
+    border-radius: 24px;
+    background-position-y: -520px;
+}
+
+.box-game-2 {
+    position: absolute;
+    width: 872px;
+    height: 480px;
+    left: 984px;
+
+    background: url('https://cdn.igromania.ru/mnt/articles/4/9/0/3/0/e/31464/preview/78fd73017c3bc78b_1920xH.jpg');
+    background-position-y: -120px;
+    border-radius: 24px;
+}
+
+/* Первый бокс */
+.text-1 {
+    position: absolute;
+    width: 102px;
+    height: 12px;
+    left: 64px;
+    top: 38px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    line-height: 14px;
+
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+
+    color: #f800ba;
+}
+
+.text-name-game-1{
+    color: whitesmoke;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    width: 306px;
+    height: 48px;
+    left: 64px;
+    top: 88px;
+
+    font-size: 40px;
+    line-height: 48px;
+    
+}
+
+.text-about-game-1 {
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    left: 64px;
+    color: #ffffff;
+    top: 158px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.win-1 {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 140px;
+    top: 334px;
+}
+
+.text-price-1 {
+    position: absolute;
+    width: 83px;
+    height: 24px;
+    left: 64px;
+    top: 308px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-align: left;
+
+    color: #d1ced1;
+}
+
+.ps-1 {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 168px;
+    top: 334px;
+}
+
+.buy-1 {
+    position: absolute;
+    width: 62px;
+    height: 14px;
+    left: 64px;
+    top: 424px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1px;
+}
+
+.sqr-1 {
+    width: 131px;
+    height: 37px;
+    left: 196px;
+    top: 10px;
+    text-align: justify;
+    text-align-last: center;
+    padding-top: 100%;
+    display: inline-block; /* Строчно-блочный элемент */
+    background: rgb(0, 0, 0); /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 50px; /* Скругляем уголки */
+}
+
+/* Второй бокс */
+
+.text-2 {
+    position: absolute;
+    width: 102px;
+    height: 12px;
+    left: 64px;
+    top: 38px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    line-height: 14px;
+
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+
+    color: #8000f8;
+}
+
+.text-name-game-2 {
+    color: whitesmoke;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    width: 306px;
+    height: 48px;
+    left: 64px;
+    top: 88px;
+
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.text-about-game-2 {
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    left: 64px;
+    color: #ffffff;
+    top: 144px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.win-2 {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 140px;
+    top: 334px;
+}
+
+.ps-2 {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 168px;
+    top: 334px;
+}
+
+.text-price-2 {
+    position: absolute;
+    width: 83px;
+    height: 24px;
+    left: 64px;
+    top: 308px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-align: left;
+
+    color: #d1ced1;
+}
