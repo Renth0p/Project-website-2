@@ -357,3 +357,47 @@ h1,h2,h3,h4,h5,h6 {
 
     color: #d1ced1;
 }
+
+.buy-2 {
+    position: absolute;
+    width: 62px;
+    height: 14px;
+    left: 64px;
+    top: 424px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1px;
+}
+
+.cir-1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 1470px;
+    top: 715px;
+
+    background: #ECEFF4;
+    border-radius: 100px;
+}
+
+.cir-2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 1435px;
+    top: 715px;
+
+    background: #ECEFF4;
+    border-radius: 100px;
+}
+
+.cir-3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 1400px;
+    top: 715px;
+
+    background: #ECEFF4;
+    border-radius: 100px;
+}
